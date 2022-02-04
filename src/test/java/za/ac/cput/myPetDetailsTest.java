@@ -45,4 +45,5 @@ class myPetDetailsTest {
         assertNotSame(myPets3, myPets2);
 
     }
+
 }

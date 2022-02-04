@@ -1,5 +1,9 @@
 package za.ac.cput;
+/* Breyton Ernstzen - 217203027
+         GIT and TDD group excercise
+         4 February 2022
 
+ */
 public class myPets {
     private String name;
     private String breed;

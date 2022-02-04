@@ -1,5 +1,6 @@
 /**
  *
+ * RectangleTest
  * @author Tarren-Marc Adams
  * student number 214041794
  *
@@ -10,6 +11,9 @@ package za.ac.cput;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
+
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -41,5 +45,9 @@ class RectangleTest {
         assertSame(rectangle2,rectangle5);
     }
 
-
+    @Test
+    @Timeout(value = 100, unit = TimeUnit.MICROSECONDS)
+    public void testTimeOut(){
+        System.out.println("Test timed out");
+    }
 }

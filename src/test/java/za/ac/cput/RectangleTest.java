@@ -34,4 +34,12 @@ class RectangleTest {
         assertEquals(rectangle1,rectangle3);
         assertEquals(rectangle2,rectangle5);
     }
+
+    @Test
+    public  void  testIdentity(){
+        assertNotSame(rectangle1,rectangle4);
+        assertSame(rectangle2,rectangle5);
+    }
+
+
 }

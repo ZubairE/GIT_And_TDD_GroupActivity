@@ -3,6 +3,8 @@ package za.ac.cput;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class NewCarTest {
@@ -39,7 +41,11 @@ class NewCarTest {
         fail("The two are not equal to each other");
     }
 
-
+    @Test
+    public void testTimeoutOne() throws InterruptedException
+    {
+        TimeUnit.SECONDS.sleep(1);
+    }
 
 
 

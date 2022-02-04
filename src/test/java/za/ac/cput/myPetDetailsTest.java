@@ -11,6 +11,9 @@ class myPetDetailsTest {
 
     @BeforeEach
     void setUp() {
-
+        //First step
+        myPets1 = new myPets("Milo","Jack russel","Dog",4);
+        myPets2 = new myPets("Jango","Pitbull","Dog",4);
+        myPets3 = myPets1;
     }
 }

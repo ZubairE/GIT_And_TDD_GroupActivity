@@ -4,21 +4,21 @@ package za.ac.cput;
          4 February 2022
 
  */
-public class myPets {
+public class myPetDetails {
     private String name;
     private String breed;
     private String specie;
     private int numberOfLegs;
 
     //Default constructor
-    public myPets(){
+    public myPetDetails(){
         this.name = "";
         this.breed = "";
         this.specie ="";
         this.numberOfLegs = 0;
     }
 
-    public myPets(String name, String breed, String specie, int numberOfLegs) {
+    public myPetDetails(String name, String breed, String specie, int numberOfLegs) {
         this.name = name;
         this.breed = breed;
         this.specie = specie;

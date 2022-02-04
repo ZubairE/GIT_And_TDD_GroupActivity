@@ -1,3 +1,10 @@
+/**
+ * Account.java
+ * This is the model or worker class
+ * @author Guy De La Cruz
+ * 04 February 2022
+ */
+
 package za.ac.cput;
 
 public class Account {

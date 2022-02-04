@@ -30,7 +30,7 @@ class NewCarTest {
    @Test
    void testEquality(){
 
-        assertEquals(car1, car2);
+        assertEquals(car1, car3);
    }
 
 }

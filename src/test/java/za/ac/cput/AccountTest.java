@@ -4,9 +4,10 @@ import org.junit.jupiter.api.BeforeEach;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class myPetsTest {
+class AccountTest {
 
     @BeforeEach
     void setUp() {
+
     }
 }

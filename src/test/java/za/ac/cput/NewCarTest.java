@@ -33,4 +33,18 @@ class NewCarTest {
         assertEquals(car1, car3);
    }
 
+   @Test
+    void testFailure(){
+        assertEquals(car1, car3);
+        fail("The two are not equal to each other");
+    }
+
+
+
+
+
+
+
+
+
 }

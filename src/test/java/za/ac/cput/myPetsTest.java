@@ -27,5 +27,6 @@ class myPetsTest {
         //Test for object equality
         assertEquals(myPets1,myPets3);
         assertEquals(myPets1,myPets1);
+
     }
 }

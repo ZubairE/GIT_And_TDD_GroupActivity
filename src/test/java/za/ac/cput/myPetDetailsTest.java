@@ -15,6 +15,11 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/* Breyton Ernstzen - 217203027
+         GIT and TDD group excercise
+         4 February 2022
+ */
+
 class myPetDetailsTest {
     private myPets myPets1;
     private myPets myPets2;
